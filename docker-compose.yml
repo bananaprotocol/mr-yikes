@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+        bot:
+                build: .
+                restart: always
+                environment:
+                        - TOKEN=
+                        - TARGET_ID=
+                        - EMOTE=
