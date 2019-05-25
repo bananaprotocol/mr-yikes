@@ -13,3 +13,4 @@ ENV TARGET_ID=
 ENV EMOTE=
 
 CMD ["python", "bot.py"]
+
