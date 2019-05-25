@@ -7,5 +7,6 @@ services:
                 environment:
                         - TOKEN=
                         - TARGET_ID=
+                        - TARGET_ROLE=
                         - EMOTE=
 

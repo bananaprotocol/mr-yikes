@@ -10,6 +10,7 @@ COPY bot.py ./
 
 ENV TOKEN=
 ENV TARGET_ID=
+ENV TARGET_ROLE=
 ENV EMOTE=
 
 CMD ["python", "bot.py"]
